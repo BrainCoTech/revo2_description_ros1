@@ -10,6 +10,9 @@
 
 </div>
 
+> 👉 ROS 2 版本 [revo2_description (ROS2)](https://github.com/BrainCoTech/revo2_description)
+
+
 ## 目录
 * 1.[revo2_description功能包说明](#revo2_description功能包说明)
 * 2.[revo2_description功能包使用](#revo2_description功能包使用)

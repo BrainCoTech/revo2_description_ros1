@@ -6,6 +6,8 @@
 
 # Revo2 Description
 
+> 👉 Want the ROS 2 version? Visit [revo2_description (ROS2)](https://github.com/BrainCoTech/revo2_description)
+
 ## Overview
 
 The Revo2 Description repository offers detailed URDF models for BrainCo Revo2 dexterous hands. Additionally, the repository provides Docker support for easy visualization and simulation setup.
