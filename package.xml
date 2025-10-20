@@ -1,0 +1,18 @@
+<package format="2">
+  <name>revo2_description</name>
+  <version>1.0.0</version>
+  <description>revo2_description contains URDF files and meshes of BrainCo Revo2 dexterous hands</description>
+  <maintainer email="support@brainco.com">BrainCo</maintainer>
+  <license>Apache 2.0</license>
+  <author>BrainCo</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roslaunch</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>rviz</depend>
+  <depend>joint_state_publisher_gui</depend>
+  <depend>gazebo</depend>
+  <export>
+    <architecture_independent />
+  </export>
+</package>
