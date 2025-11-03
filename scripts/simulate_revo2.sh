@@ -13,8 +13,10 @@ echo
 
 docker run -it --rm \
     --privileged \
-    -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=${DISPLAY} \
-    -v $(pwd):/tmp/revo2_description_src \
+    -v /tmp/.X11-unix:/tmp/.X11-unix:rw -e DISPLAY=${DISPLAY} \
+    --env="QT_X11_NO_MITSHM=1" \
+    --volume="$HOME/.Xauthority:/root/.Xauthority:rw" \
+    -v $(pwd):/workspaces/src/revo2_description \
     -w /workspaces \
     revo2_description_ros1 \
-    bash -c "mkdir -p /workspaces/src && cp -r /tmp/revo2_description_src /workspaces/src/revo2_description && exec /workspaces/src/revo2_description/.docker/simulate_revo2.entrypoint.sh $*"  
+    /workspaces/src/revo2_description/.docker/simulate_revo2.entrypoint.sh $*
