@@ -192,8 +192,8 @@ roslaunch revo2_description gazebo_revo2_right_hand.launch
 
 | 关节名称 | 描述 | 角度范围（度） | 角度范围（弧度） |
 |------------|-------------|-----------------|-----------------|
-| left_thumb_flex_joint | 拇指屈伸 | 0 ~ 59 | 0 ~ 1.03 |
-| left_thumb_abduct_joint | 拇指外展 | 0 ~ 90 | 0 ~ 1.57 |
+| left_thumb_flex_joint | 拇指屈伸 | 0 ~ 60 | 0 ~ 1.04720 |
+| left_thumb_abduct_joint | 拇指外展 | 0 ~ 89 | 0 ~ 1.55334 |
 | left_index_joint | 食指 | 0 ~ 81 | 0 ~ 1.41 |
 | left_middle_joint | 中指 | 0 ~ 81 | 0 ~ 1.41 |
 | left_ring_joint | 无名指 | 0 ~ 81 | 0 ~ 1.41 |
@@ -203,8 +203,8 @@ roslaunch revo2_description gazebo_revo2_right_hand.launch
 
 | 关节名称 | 描述 | 角度范围（度） | 角度范围（弧度） |
 |------------|-------------|-----------------|-----------------|
-| right_thumb_flex_joint | 拇指屈伸 | 0 ~ 59 | 0 ~ 1.03 |
-| right_thumb_abduct_joint | 拇指外展 | 0 ~ 90 | 0 ~ 1.57 |
+| right_thumb_flex_joint | 拇指屈伸 | 0 ~ 60 | 0 ~ 1.04720 |
+| right_thumb_abduct_joint | 拇指外展 | 0 ~ 89 | 0 ~ 1.55334 |
 | right_index_joint | 食指 | 0 ~ 81 | 0 ~ 1.41 |
 | right_middle_joint | 中指 | 0 ~ 81 | 0 ~ 1.41 |
 | right_ring_joint | 无名指 | 0 ~ 81 | 0 ~ 1.41 |

@@ -1,6 +1,6 @@
 <package format="2">
   <name>revo2_description</name>
-  <version>1.0.0</version>
+  <version>1.1.1</version>
   <description>revo2_description contains URDF files and meshes of BrainCo Revo2 dexterous hands</description>
   <maintainer email="support@brainco.com">BrainCo</maintainer>
   <license>Apache 2.0</license>

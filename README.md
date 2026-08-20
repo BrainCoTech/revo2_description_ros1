@@ -150,8 +150,8 @@ roslaunch revo2_description gazebo_revo2_right_hand.launch
 
 | Joint Name | Description | Range (degrees) | Range (radians) |
 |------------|-------------|-----------------|-----------------|
-| left_thumb_flex_joint | Thumb flexion | 0 ~ 59 | 0 ~ 1.03 |
-| left_thumb_abduct_joint | Thumb abduction | 0 ~ 90 | 0 ~ 1.57 |
+| left_thumb_flex_joint | Thumb flexion | 0 ~ 60 | 0 ~ 1.04720 |
+| left_thumb_abduct_joint | Thumb abduction | 0 ~ 89 | 0 ~ 1.55334 |
 | left_index_joint | Index finger | 0 ~ 81 | 0 ~ 1.41 |
 | left_middle_joint | Middle finger | 0 ~ 81 | 0 ~ 1.41 |
 | left_ring_joint | Ring finger | 0 ~ 81 | 0 ~ 1.41 |
@@ -161,8 +161,8 @@ roslaunch revo2_description gazebo_revo2_right_hand.launch
 
 | Joint Name | Description | Range (degrees) | Range (radians) |
 |------------|-------------|-----------------|-----------------|
-| right_thumb_flex_joint | Thumb flexion | 0 ~ 59 | 0 ~ 1.03 |
-| right_thumb_abduct_joint | Thumb abduction | 0 ~ 90 | 0 ~ 1.57 |
+| right_thumb_flex_joint | Thumb flexion | 0 ~ 60 | 0 ~ 1.04720 |
+| right_thumb_abduct_joint | Thumb abduction | 0 ~ 89 | 0 ~ 1.55334 |
 | right_index_joint | Index finger | 0 ~ 81 | 0 ~ 1.41 |
 | right_middle_joint | Middle finger | 0 ~ 81 | 0 ~ 1.41 |
 | right_ring_joint | Ring finger | 0 ~ 81 | 0 ~ 1.41 |
